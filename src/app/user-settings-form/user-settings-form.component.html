@@ -6,7 +6,7 @@
     <div class="form-group">
       <label for="name">Name</label>
       <input id="name" name="name" class="form-control" [(ngModel)]="userSettings.name" 
-        required >
+        pattern="B.*" >
     </div>
 
     <div class="form-check form-group">
